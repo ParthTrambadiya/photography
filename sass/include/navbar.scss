@@ -1,0 +1,22 @@
+ul
+{
+    .dropdown-menu
+    {
+        border: none;
+        border-top: 5px solid $color-second;
+    }
+    .dropdown:hover .dropdown-menu
+    {
+        display: block;
+    }
+}
+.social-media
+{
+    a
+    {
+        &:hover
+        {
+            color: $color-second;
+        }
+    }
+}

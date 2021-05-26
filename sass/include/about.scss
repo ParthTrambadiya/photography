@@ -1,0 +1,23 @@
+/*--About Us--*/
+.skills
+{
+    .container
+    {
+        hr
+        {
+            width: 50%;
+            border: 1px solid $color-second;
+        }
+    }
+}
+
+.our-team
+{
+    .container
+    {
+        .card
+        {
+            border: 2px solid $color-second;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+/*--My Photography*/
+.photography
+{
+    .container
+    {
+        hr
+        {
+            width: 50%;
+            border: 1px solid $color-second;
+        }
+        .overlay
+        {
+            position: relative;
+            &:before
+            {
+                position: absolute;
+                content: "";
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                background: rgba(0, 0, 0, 0.5);
+            }
+        }
+        figure
+        {
+            transition: all .3s;
+
+            &:hover
+            {
+                transform: scale(1.05);
+            }
+            .text
+            {
+                position: absolute;
+                top: 80%;
+                width: 100%;
+                transform: translateY(-20%);
+                -webkit-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                z-index: 3;
+            }
+        }
+    }
+}

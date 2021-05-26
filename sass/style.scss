@@ -1,0 +1,23 @@
+/*---Font---*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Dosis:wght@500&family=Raleway&display=swap');
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+@import './include/variable.scss';
+@import './include/color.scss';
+@import './include/font.scss';
+@import './include/navbar.scss';
+@import './include/landing-part.scss';
+@import './include/my-specialties.scss';
+@import './include/banner-contact.scss';
+@import './include/my-photography.scss';
+@import './include/contact-home-page.scss';
+@import './include/footer.scss';
+@import './include/about.scss';
+@import './include/contact.scss';

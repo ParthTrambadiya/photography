@@ -1,0 +1,239 @@
+/*---Font---*/
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Dosis:wght@500&family=Raleway&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.color-primary {
+  color: #fff;
+}
+
+.color-primary-bg {
+  background: #fff;
+}
+
+.color-second {
+  color: #3f3f3f;
+}
+
+.color-second-bg {
+  background: #3f3f3f;
+}
+
+.color-yellow {
+  color: #ff9d00;
+}
+
+.color-yellow-bg {
+  background: #ff9d00;
+}
+
+.color-light {
+  color: #979797;
+}
+
+.font-baloo {
+  font-family: "Baloo Thambi 2", "Cursive";
+}
+
+.font-raleway {
+  font-family: "Raleway", "Cursive";
+}
+
+.font-dosis {
+  font-family: "Dosis", "Cursive";
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+ul .dropdown-menu {
+  border: none;
+  border-top: 5px solid #3f3f3f;
+}
+ul .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.social-media a:hover {
+  color: #3f3f3f;
+}
+
+.landing-photo {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  background-position: center center;
+}
+.landing-photo.overlay {
+  position: relative;
+}
+.landing-photo.overlay:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+.landing-photo .row {
+  min-height: 600px;
+  height: calc(30vh);
+}
+.landing-photo .row h1 {
+  z-index: 1;
+}
+.landing-photo .row .box span {
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: rotate(45deg);
+  margin: -10px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: animate 2s infinite;
+}
+.landing-photo .row .box span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+.landing-photo .row .box span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(45deg) translate(10px, 10px);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.specialties .container hr {
+  width: 50%;
+  border: 1px solid #3f3f3f;
+}
+.specialties .container .spe-card {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.specialties .container .spe-card .img-card {
+  min-width: 250px;
+  overflow: hidden;
+}
+.specialties .container .spe-card .img-card img {
+  width: 100%;
+  height: auto;
+  transition: all 0.5s;
+}
+.specialties .container .spe-card .img-card img:hover {
+  transform: scale(1.1);
+}
+
+.b-contact {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.b-contact .row {
+  min-height: 400px;
+  height: calc(20vh);
+}
+.b-contact .row h1 {
+  z-index: 1;
+  font-weight: 1000;
+}
+.b-contact .row button {
+  transition: all 0.5s;
+}
+.b-contact .row button:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/*--My Photography*/
+.photography .container hr {
+  width: 50%;
+  border: 1px solid #3f3f3f;
+}
+.photography .container .overlay {
+  position: relative;
+}
+.photography .container .overlay:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+.photography .container figure {
+  transition: all 0.3s;
+}
+.photography .container figure:hover {
+  transform: scale(1.05);
+}
+.photography .container figure .text {
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  z-index: 3;
+}
+
+.contact .container a:hover {
+  color: #fff;
+}
+
+footer .container a {
+  color: #979797;
+}
+footer .container a:hover {
+  color: #979797;
+}
+
+/*--About Us--*/
+.skills .container hr {
+  width: 50%;
+  border: 1px solid #3f3f3f;
+}
+
+.our-team .container .card {
+  border: 2px solid #3f3f3f;
+}
+
+/*--Contact Us--*/
+.contact form input[type=text]:focus, .contact form input[type=email]:focus, .contact form input[type=subject]:focus, .contact form textarea:focus {
+  border: 1px solid #3f3f3f;
+}
+
+/*# sourceMappingURL=style.css.map */

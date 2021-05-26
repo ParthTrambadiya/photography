@@ -1,0 +1,14 @@
+/*--Contact Us--*/
+.contact
+{
+    form
+    {
+        input[type="text"], input[type="email"], input[type="subject"], textarea
+        {
+            &:focus
+            {
+                border: 1px solid $color-second;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.b-contact
+{
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .row
+    {
+        min-height: 400px;
+        height: calc(20vh);
+
+        h1
+        {
+            z-index: 1;
+            font-weight: 1000;
+        }
+        button
+        {
+            transition: all .5s;
+            &:hover
+            {
+                color: $color-primary;
+                transform: scale(1.1);
+            }
+        }
+    }
+}

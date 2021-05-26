@@ -1,0 +1,15 @@
+footer
+{
+    .container
+    {
+        a
+        {
+            color: $color-light;
+
+            &:hover
+            {
+                color: $color-light;
+            }
+        }
+    }
+}
